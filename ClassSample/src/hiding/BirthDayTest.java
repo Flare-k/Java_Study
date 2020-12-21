@@ -6,8 +6,22 @@ class BirthDay {
     private int year;
 
     public void setDay(int day) {
-        this.day = day;
+        this.day = day; // 자기 자신의 인스턴스 메모리를 가리킴
     }
+    /*
+    this ?
+        1) 자신의 메모리를 가리킴
+        2) 생성자에서 다른 생성자 호출
+        -> Example
+        public Person(){
+            this("이름없음", 1);
+        }
+        public Person(String name, int age){
+            this.name = name;
+            this.age = age;
+        }
+        3) 자신의 주소 반환
+    */
 
     public void setMonth(int month) {
         this.month = month;
