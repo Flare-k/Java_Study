@@ -11,7 +11,7 @@ public class StudentTest {
         s.setMath("수학", 100);
         s.showStudentInfo();
 
-        Student ss = new Student(2017110268, "김다솔");
+        Student ss = new Student(2017110268, "홍길동");
         ss.setKorea("국어", 100);
         ss.setMath("수학", 100);
         ss.showStudentInfo();
