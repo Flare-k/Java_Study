@@ -1,9 +1,9 @@
 package hiding;
 
 class BirthDay {
-    public int day;
-    public int month;
-    public int year;
+    private int day;
+    private int month;
+    private int year;
 }
 
 public class BirthDayTest{
